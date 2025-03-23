@@ -1,0 +1,8 @@
+{
+  "audit": true,
+  "deny": ["deprecated-packages", "high-risk-dependencies"],
+  "report": {
+    "output": "security-report.json",
+    "format": "json"
+  }
+}

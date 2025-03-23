@@ -9,7 +9,10 @@
     "lint": "next lint",
     "release": "semantic-release && standard-version",
     "lint:css": "stylelint 'src/**/*.{css,scss}'",
-    "lint:css:fix": "stylelint 'src/**/*.{css,scss}' --fix"
+    "lint:css:fix": "stylelint 'src/**/*.{css,scss}' --fix",
+    "security": "npm audit --json > security-report.json",
+    "snyk": "npx snyk test",
+    "renovate": "npx renovate --config renovate.json"
   },
   "repository": {
     "type": "git",
