@@ -12,7 +12,8 @@
     "lint:css:fix": "stylelint 'src/**/*.{css,scss}' --fix",
     "security": "npm audit --json > security-report.json",
     "snyk": "npx snyk test",
-    "renovate": "npx renovate --config renovate.json"
+    "renovate": "npx renovate --config renovate.json",
+    "prepare": "husky"
   },
   "repository": {
     "type": "git",
@@ -42,6 +43,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint-plugin-security": "3.0.1",
+    "husky": "9.1.7",
     "postcss-lit": "1.2.0",
     "semantic-release": "24.2.3",
     "standard-version": "9.5.0",
